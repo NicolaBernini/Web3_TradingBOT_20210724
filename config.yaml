@@ -1,0 +1,28 @@
+blockchains:
+  chain_id:
+    rinkeby: 4
+
+contracts:
+  dex: 
+    uniswap_v2:
+      factory:
+        address: 
+          rinkeby: "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f"
+        abi: abi/uniswap_v2_factory.json
+      router:
+        address: 
+          rinkeby: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
+        abi: abi/uniswap_v2_router.json
+
+
+
+  erc20:
+    tokens:
+      WETH:
+        rinkeby: "0xc778417E063141139Fce010982780140Aa0cD5Ab"
+      WBTC:
+        rinkeby: "0x577D296678535e4903D59A4C929B718e1D575e0A"
+    abi: abi/erc20.json
+
+
+

@@ -1,0 +1,19 @@
+swaps:
+- from: ETH
+  to: WETH
+  type: opt
+  amount: 
+    type: abs
+    val: 1000000000000
+
+- to: WBTC
+  amount: 
+    type: perc
+    val: 1.0
+
+
+
+
+
+
+
